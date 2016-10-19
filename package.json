@@ -1,0 +1,30 @@
+{
+  "name": "angular-question",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start test/karma.conf.js",
+    "exercise-1": "(cd exercise-1 && (sleep 1 && open 'http://localhost:8000') && python -m SimpleHTTPServer 8000)",
+    "exercise-2": "(cd exercise-2 && (sleep 1 && open 'http://localhost:8000') && python -m SimpleHTTPServer 8000)",
+    "exercise-3": "(cd exercise-3 && (sleep 1 && open 'http://localhost:8000') && python -m SimpleHTTPServer 8000)",
+    "exercise-4": "(cd exercise-4 && (sleep 1 && open 'http://localhost:8000') && python -m SimpleHTTPServer 8000)"
+  },
+  "author": "thejsj",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jspm": "^2.2.0",
+    "karma-mocha": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "jspm": {
+    "dependencies": {},
+    "devDependencies": {}
+  }
+}
