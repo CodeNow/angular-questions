@@ -1,7 +1,7 @@
 module.exports = function (config) {
   var conf = {
     basePath: '../',
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai', 'sinon'],
     reporters: ['mocha'],
     browsers: ['Chrome'],
     autoWatch: true,

@@ -1,4 +1,4 @@
-angular.module('myApp',[])
+angular.module('myApp2',[])
   .controller('FirstMessageController', function($scope) {
     $scope.message = 'hello'
   })

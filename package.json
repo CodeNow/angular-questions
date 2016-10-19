@@ -18,7 +18,11 @@
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-mocha": "^1.2.0",
-    "karma-mocha-reporter": "^2.2.0"
+    "karma-mocha-reporter": "^2.2.0",
+    "karma-sinon": "^1.0.5",
+    "karma-sinon-as-promised": "^0.1.6",
+    "sinon": "^1.17.6",
+    "sinon-as-promised": "^4.0.2"
   },
   "dependencies": {
     "angular": "^1.5.8"

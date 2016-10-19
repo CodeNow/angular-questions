@@ -1,6 +1,6 @@
 var directiveName = '' // #1
 
-angular.module('myApp',[])
+angular.module('myApp4',[])
   .directive(directiveName, function (getGithubUser) {
     return {
       restrict: 'E',

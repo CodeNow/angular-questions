@@ -1,6 +1,6 @@
 console.log('include app')
 
-angular.module('myApp', [])
+angular.module('myApp1', [])
 .controller('MessageController', function ($scope) {
   this.getMessage = $scope.getMessage = function() {
     setTimeout(function() {
