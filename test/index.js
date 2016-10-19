@@ -1,13 +1,21 @@
 'use strict'
 
-describe('Unit: Testing Filters', function () {
+describe('MessageController', function () {
+  let $controller
+  let scope
+  let controller
 
-  before(() => {
-    angular.module('myApp')
-  })
+  beforeEach(function () { module('myApp') })
+  beforeEach(inject(function (_$controller_, $rootScope) {
+    $controller = _$controller_
+    scope = $rootScope.$new();
+    controller = $controller('MessageController', {
+      $scope: scope
+    });
+  }));
 
-  it('should have a range filter', function () {
-    expect(1).to.equal(1)
+  it('should have a `getMessage` function', function () {
+    expect(scope.getMessage).to.be.a('function')
   })
 
 })
